@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.78rem;
+    }
+
+    .btns {
+        height: 80%;
+    }
+}
+
+@media (min-width:769px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .btns {
+        height: 90%;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    user-select: none;
+    background: linear-gradient(#8b4513 20%, #d2691e 40%, #a0522d 80%, #8b4513 90%);
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    word-spacing: 1rem;
+
+}
+
+.container {
+    margin: 20px 5px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #272828;
+    border: 2px solid black;
+}
+
+.display #screen {
+    width: 97%;
+    height: 17%;
+    font-size: 4rem;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5rem;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px;
+}
+
+.btns {
+
+    width: 100%;
+    margin-top: 1.7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    height: 16.4%;
+}
+
+.btns .row button {
+    background: black;
+    font-weight: 500;
+    color: white;
+    width: 11%;
+    height: 65%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.btns .row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px rgba(0, 0, 0, 0.462);
+    background: rgba(35, 35, 35, 0.784);
+}
+
+.btns .row button:active {
+    transform: translateY(3px);
+}
+
+#eval {
+    background: rgb(253, 253, 0);
+    color: black;
+}
+
+#eval :hover {
+    box-shadow: inset 5px 5px 8px #2eb82e,
+        inset -5px -5px 8px #33cc33;
+}
+
+#ac {
+    background: orangered;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px orange,
+        inset -5px -5px 8px orange;
+}
+
+#ce {
+    background: orangered;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px orange,
+        inset -5px -5px 8px orange;
+}
