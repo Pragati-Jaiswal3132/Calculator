@@ -14,7 +14,7 @@
     }
 
     .btns {
-        height: 50%;
+        height: 90%;
     }
 }
 
@@ -37,6 +37,7 @@ h1 {
 }
 
 .container {
+    height:100%
     margin: 20px 5px;
     padding: 20px;
     border-radius: 8px;
