@@ -13,6 +13,8 @@
 
     .btns .row button {
         font-size: .7rem;
+        padding: 8px 5px;
+        margin: 7px;
     }
 }
 
@@ -26,11 +28,13 @@
     }
 
     .display #screen{
-        font size: 4rem;
+        font-size: 4rem;
     }
 
     .btns .row button {
         font-size: 1.2rem;
+        padding: 8px;
+        margin: 8px;
     }
 }
 
@@ -96,8 +100,6 @@ h1 {
     height: 70%;
     border: none;
     outline: none;
-    margin: 8px;
-    padding: 8px;
     border-radius: 4px;
     cursor: pointer;
     transition: .1s;
